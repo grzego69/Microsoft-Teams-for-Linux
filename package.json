@@ -1,0 +1,33 @@
+{
+  "name": "com.grzego69",
+  "version": "1.0.0",
+  "description": "Unofficial Microsoft Teams client for Linux",
+  "main": "src/start.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grzego69/microsoft-teams-for-linux.git"
+  },
+  "keywords": [
+    "ms",
+    "teams",
+    "msteams",
+    "microsoft",
+    "teams"
+  ],
+  "author": "Adam Grzegorzewski <grzego69@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grzego69/microsoft-teams-for-linux/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^2.0.5",
+    "electron-builder": "^20.26.1",
+    "ajv": "^6.0.0"
+  },
+  "homepage": "https://github.com/grzego69/microsoft-teams-for-linux#readme"
+}
